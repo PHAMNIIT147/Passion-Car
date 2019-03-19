@@ -73,7 +73,6 @@ img {
 .form-login input[type="text"],
 .form-login input[type="password"] {
     padding: 1rem;
-    background-color: #ffffff;
     border-radius: 10px;
 }
 

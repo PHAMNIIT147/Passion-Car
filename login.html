@@ -19,23 +19,24 @@
             </a>
         </div>
         <div class="login-item">
-            <form action="" method="post" class="form form-login">
+            <form class="form form-login">
                 <div class="form-field">
-                    <input id="login-username" type="text" class="form-input" placeholder="Tên hoặc Email đăng nhập" required>
+                    <input name="username" id="login-username" type="text" class="form-input" placeholder="Tên hoặc Email đăng nhập">
                 </div>
                 <div class="form-field">
-                    <input id="login-password" type="password" class="form-input" placeholder="Mật khẩu" required>
+                    <input name="password" id="login-password" type="password" class="form-input" placeholder="Mật khẩu">
                 </div>
                 <div class="check">
                     <input type="checkbox" checked="checked" name="remember">Ghi nhớ tài khoản ?
                 </div>
                 <div class="form-field">
-                    <input type="submit" value="ĐĂNG NHẬP">
+                    <input type="submit" onclick="this.form" value="ĐĂNG NHẬP">
                 </div>
             </form>
         </div>
     </div>
 </body>
+<link rel="stylesheet" href="login to panel/login.js">
 
 </html>
 
