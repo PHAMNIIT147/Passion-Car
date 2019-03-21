@@ -71,15 +71,15 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-    background-color: #fe3535;
-    border-color: #fe3535
+    background-color: #ddc518;
+    border-color: #ddc518
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-    background-color: #fec810!important;
-    border-color: #fec810!important;
+    background-color: #242321 !important;
+    border-color: #242321 !important;
     color: #fff
 }
 
@@ -107,13 +107,13 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-toggler {
-    font-size: 12px;
+    font-size: 15px;
     right: 0;
     padding: 13px;
     text-transform: uppercase;
     color: #fff;
     border: 0;
-    background-color: #fe3535;
+    background-color: #ddc518;
     font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
 
@@ -278,7 +278,7 @@ header.masthead .intro-text .intro-heading {
 #portfolio .portfolio-item .portfolio-caption {
     max-width: 400px;
     margin: 0 auto;
-    padding: 25px;
+    padding: 15px;
     text-align: center;
     background-color: #fff
 }
