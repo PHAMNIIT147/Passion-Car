@@ -30,7 +30,7 @@ const app = new Vue({
         submit: function(e) {
             e.preventDefault();
             if (this.usname === 'phong' && this.psword === '123') {
-                window.location.href = 'https://www.w3schools.com/js/js_htmldom_eventlistener.asp';
+                window.location = 'post.html';
                 this.error = true;
             } else {
                 alert('Sai username hoặc password');
