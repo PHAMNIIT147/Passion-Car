@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ĐĂNG NHẬP</title>
     <link rel="icon" href="img/logos/Annotation 2019-03-13 081454.jpg">
-    <link rel="stylesheet" href="login to panel/style.css">
+    <link rel="stylesheet" href="auth/style.css">
+
 </head>
 
 <body>
@@ -19,12 +20,12 @@
             </a>
         </div>
         <div class="login-item">
-            <form action="POST" class="form form-login" id="main-form">
+            <form action="post" class="form form-login" id="login">
                 <div class="form-field">
-                    <input name="username" id="login-username" type="text" class="form-input" placeholder="Tên hoặc Email đăng nhập">
+                    <input name="usname" id="usname" type="text" class="form-input" placeholder="Tên hoặc Email đăng nhập">
                 </div>
                 <div class="form-field">
-                    <input name="password" id="login-password" type="password" class="form-input" placeholder="Mật khẩu">
+                    <input name="psword" id="psword" type="password" class="form-input" placeholder="Mật khẩu">
                 </div>
                 <div class="check">
                     <input type="checkbox" checked="checked" name="remember">Ghi nhớ tài khoản ?
@@ -36,7 +37,9 @@
         </div>
     </div>
 </body>
-<script href="./login.js"></script>
+<script href="auth/login.js"></script>
+<!-- Vue.js -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 </html>
 
