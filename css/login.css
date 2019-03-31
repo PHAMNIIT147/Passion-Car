@@ -1,6 +1,6 @@
 html {
     height: 100%;
-    background: url(img/imageLogin.jpg) no-repeat center fixed;
+    background: url(../img/login/imageLogin.jpg) fixed;
     background-size: cover;
 }
 
@@ -10,7 +10,7 @@ html {
 @media only screen and (max-width: 1024px) {
     html {
         height: 100%;
-        background: url(img/ipad.jpg) no-repeat center fixed;
+        background: url(../img/login/ipad.jpg)fixed;
         background-size: cover;
     }
 }
@@ -21,7 +21,7 @@ html {
 @media only screen and (max-width: 375px) {
     html {
         height: 100%;
-        background: url(img/smartPhong.jpg) no-repeat center fixed;
+        background: url(../img/login/smartPhong.jpg) fixed;
         background-size: cover;
     }
 }
@@ -50,6 +50,7 @@ img {
     width: 450px;
     flex-direction: column;
     border-radius: 20px;
+    box-shadow: rgb(200, 173, 44) 0px 0px 30px 0px;
 }
 
 .logo {
@@ -73,7 +74,6 @@ img {
 .form-login input[type="text"],
 .form-login input[type="password"] {
     padding: 1rem;
-    border-radius: 10px;
 }
 
 .form-login input[type="submit"] {
