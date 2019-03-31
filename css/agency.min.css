@@ -58,6 +58,7 @@
     .text-color {
         color: white;
     }
+    /* add user */
     
     @media (max-width:140px) {
         .text-color {
@@ -724,6 +725,16 @@
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 20px 0px
     }
+    /* user add */
+    
+    @media (max-width: 500px) {
+        .imgage {
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 20px 0px;
+            max-height: 100%;
+            width: 150px;
+        }
+    }
     /*8.20am 13/3/19*/
     
     .logoAddress {
@@ -801,4 +812,8 @@
     
     #text-muted-css {
         color: #ffc107 !important
+    }
+    
+    #text-muted {
+        font-style: italic;
     }
