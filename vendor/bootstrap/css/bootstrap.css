@@ -499,21 +499,21 @@ mark,
 }
 
 .img-fluid {
-    max-height: 150px;
-    max-width: 200px;
-    width: 120px;
-    height: 120px;
+    max-width: 100%;
+    height: auto
 }
 
+.img-fluid-user {
+    max-width: 100%;
+    height: auto
+}
 
-/* user add */
-
-@media (max-width:400px) {
-    .img-fluid {
-        max-height: 50px;
-        max-width: 100px;
-        width: 70px;
-        height: 70px;
+@media (max-width:770px) {
+    .img-fluid-user {
+        max-height: 300px;
+        max-width: 200px;
+        width: 200px;
+        height: 200px;
     }
 }
 
