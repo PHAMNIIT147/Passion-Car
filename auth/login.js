@@ -24,14 +24,12 @@ const app = new Vue({
     data: {
         usname: '',
         psword: '',
-        error: false
     },
     methods: {
         submit: function(e) {
             e.preventDefault();
             if (this.usname === 'phong' && this.psword === '123') {
                 window.location = 'post.html';
-                this.error = true;
             } else {
                 alert('Sai username hoặc password');
             }

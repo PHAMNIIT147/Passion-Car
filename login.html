@@ -20,12 +20,12 @@
             </a>
         </div>
         <div class="login-item">
-            <form action="post" class="form form-login" id="login">
+            <form action="/post" menthod="post" class="form form-login" id="login" v-on:submit='submit'>
                 <div class="form-field">
-                    <input name="usname" id="usname" type="text" class="form-input" placeholder="Tên hoặc Email đăng nhập">
+                    <input v-model="usname" name="usname" id="login-username" type="text" class="form-input" placeholder="Tên hoặc Email đăng nhập">
                 </div>
                 <div class="form-field">
-                    <input name="psword" id="psword" type="password" class="form-input" placeholder="Mật khẩu">
+                    <input v-model="psword" name="psword" id="login-password" type="password" class="form-input" placeholder="Mật khẩu">
                 </div>
                 <div class="check">
                     <input type="checkbox" checked="checked" name="remember">Ghi nhớ tài khoản ?
@@ -37,7 +37,7 @@
         </div>
     </div>
 </body>
-<script href="auth/login.js"></script>
+<script src="auth/login.js"></script>
 <!-- Vue.js -->
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
