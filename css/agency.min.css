@@ -59,7 +59,7 @@
         color: white;
     }
     
-    @media (min-width:768px) {
+    @media (min-width:350px) {
         section {
             padding: 60px 0;
             background-color: #fec601;
