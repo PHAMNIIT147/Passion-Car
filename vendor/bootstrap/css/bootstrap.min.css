@@ -508,7 +508,7 @@ mark {
     height: auto
 }
 
-@media (max-width:770px) {
+@media (max-width:800px) {
     .img-fluid-user {
         max-height: 300px;
         max-width: 200px;
