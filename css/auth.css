@@ -1,0 +1,146 @@
+    .gbp-column,
+    .gbp-columns div[class^=teaseritem] {
+        display: inline-block;
+        width: 100%
+    }
+    
+    .gbp-column-content {
+        display: block;
+        position: relative;
+        word-spacing: 0
+    }
+    
+    .gbp-column-link:active,
+    .gbp-column-link:hover {
+        opacity: 1;
+    }
+    
+    .gbp-columns-heading {
+        padding-bottom: 36px
+    }
+    
+    .gbp-columns-row {
+        word-spacing: -.31em;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+    
+    @media (min-width:768px) {
+        .gbp-columns-row--2 .gbp-column,
+        .gbp-columns-row--2 div[class^=teaseritem] {
+            width: 50%
+        }
+        .gbp-columns-row--3 .gbp-column,
+        .gbp-columns-row--3 div[class^=teaseritem] {
+            width: calc(100% / 3)
+        }
+    }
+    
+    .gbp-columns-row:not(.gbp-columns-row--alt) .gbp-column,
+    .gbp-columns-row:not(.gbp-columns-row--alt) .gbp-columns div[class^=teaseritem] {
+        margin-bottom: 3px
+    }
+    
+    @media (min-width:600px) {
+        .gbp-columns-row:not(.gbp-columns-row--alt) {
+            margin-left: calc(3px * -1)
+        }
+        .gbp-columns-row:not(.gbp-columns-row--alt) .gbp-column-content {
+            margin-left: 3px
+        }
+    }
+    
+    @media (min-width:1025px) {
+        .gbp-columns-heading {
+            padding-bottom: 42px
+        }
+        .gbp-columns-row--4 div[class^=teaseritem] {
+            width: 25%
+        }
+    }
+    
+    @media (min-width:1439px) {
+        .gbp-columns-heading {
+            padding-bottom: 54px
+        }
+    }
+    
+    @media (min-width:1920px) {
+        .gbp-columns-heading {
+            padding-bottom: 66px
+        }
+    }
+    
+    .gbp-sectionteaser-link {
+        display: -webkit-inline-box;
+        display: -webkit-inline-flex;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        overflow: hidden;
+        width: 100%;
+        vertical-align: bottom;
+    }
+    
+    .gbp-sectionteaser-heading {
+        position: absolute;
+        z-index: 2;
+        margin: -3px auto 0;
+        padding: 0 24px;
+        width: 100%;
+        text-align: center
+    }
+    
+    .gbp-sectionteaser-img {
+        position: relative;
+        width: 100%;
+        padding-top: 56.25%
+    }
+    
+    .gbp-sectionteaser-img .polyfill-object-fit,
+    .gbp-sectionteaser-img img {
+        position: absolute;
+        object-fit: cover;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0
+    }
+    
+    .gbp-sectionteaser-placeholder {
+        width: 100%;
+        height: 100%;
+        background-color: #d9d9d9
+    }
+    
+    @media (min-width:768px) {
+        .gbp-sectionteaser-img {
+            padding-top: 250px;
+        }
+    }
+    
+    .container-auth {
+        padding: 5%;
+    }
+    
+    .gbp-h3 {
+        color: white;
+    }

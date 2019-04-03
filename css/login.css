@@ -10,7 +10,7 @@ html {
 @media only screen and (max-width: 1024px) {
     html {
         height: 100%;
-        background: url(../img/login/ipad.jpg)fixed;
+        background: url(../img/login/ipad.jpg) fixed;
         background-size: cover;
     }
 }
@@ -99,6 +99,7 @@ img {
 
 .text-center {
     text-align: center;
+    padding: 10px;
 }
 
 .check {
