@@ -503,6 +503,13 @@ mark {
     height: auto
 }
 
+@media (max-width: 500px) {
+    .img-fluid {
+        max-width: 50%;
+        height: auto;
+    }
+}
+
 .img-fluid-user {
     max-width: 100%;
     height: auto

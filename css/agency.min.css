@@ -70,9 +70,9 @@ section h3.section-subheading {
     }
 }
 
-@media (min-width:150px) {
+@media (min-width:150x) {
     section {
-        padding: 70px 0;
+        padding: 30px 0;
         background-color: #fec601;
     }
 }
@@ -853,6 +853,18 @@ ul.social-buttons li a:hover {
 
 #text-muted {
     font-style: italic;
+}
+
+.background-img-about {
+    background: url(../img/background-about.jpg) fixed;
+    background-size: cover;
+}
+
+@media (max-width: 500px) {
+    .background-img-about {
+        background: url() fixed;
+        background: cover;
+    }
 }
 
 
