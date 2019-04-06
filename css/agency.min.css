@@ -36,7 +36,7 @@ h6 {
 }
 
 section {
-    padding: 100px 0
+    padding: 50px 0
 }
 
 section h2.section-heading {
@@ -862,10 +862,39 @@ ul.social-buttons li a:hover {
 
 @media (max-width: 500px) {
     .background-img-about {
-        background: url() fixed;
+        background: url(../img/background-about-mobile.jpg) fixed;
         background: cover;
     }
 }
 
+.background-img-introduce {
+    background-color: #ddc631;
+}
 
-/* service */
+.video-size {
+    max-width: 600px;
+    height: auto;
+    border-radius: 1%;
+    box-shadow: rgb(221, 198, 49) 0px 0px 30px 1px
+}
+
+@media (max-width:500px) {
+    .video-size {
+        max-width: 300px;
+        height: auto;
+        border-radius: 1%;
+        box-shadow: rgb(221, 198, 49) 0px 0px 30px 1px
+    }
+}
+
+.video-size-companyName {
+    max-width: 300px;
+    height: 200px;
+    box-shadow: rgb(221, 198, 49) 0px 0px 30px 1px
+}
+
+.video-portfolio-size {
+    max-width: 250px;
+    height: auto;
+    box-shadow: #fec73a 0px 0px 20px 1px
+}
